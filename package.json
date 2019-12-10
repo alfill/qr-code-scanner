@@ -24,7 +24,7 @@
 	},
 	"devDependencies": {
 		"clean-webpack-plugin": "^0.1.19",
-		"copy-webpack-plugin": "^4.5.3",
+		"copy-webpack-plugin": "^5.0.5",
 		"cross-env": "^5.2.0",
 		"css-loader": "^1.0.0",
 		"danger": "^4.4.8",
