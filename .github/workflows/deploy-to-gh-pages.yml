@@ -1,0 +1,26 @@
+name: Deploy qr-scan app with Node CI
+
+on:   
+  pull_request:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+
+    - name: Build
+      run: |
+        npm install
+        npm run-script build
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.Deploy_qrscan }}
+        BRANCH: gh-pages
+        FOLDER: dist
