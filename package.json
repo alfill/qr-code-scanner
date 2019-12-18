@@ -24,7 +24,7 @@
 	},
 	"devDependencies": {
 		"clean-webpack-plugin": "^0.1.19",
-		"copy-webpack-plugin": "^5.0.5",
+		"copy-webpack-plugin": "^5.1.1",
 		"cross-env": "^5.2.0",
 		"css-loader": "^1.0.0",
 		"danger": "^4.4.8",
@@ -37,7 +37,7 @@
 		"optimize-css-assets-webpack-plugin": "^5.0.1",
 		"prettier": "^1.14.3",
 		"style-loader": "^0.23.1",
-		"webpack": "^4.20.2",
+		"webpack": "^4.41.3",
 		"webpack-cli": "^3.1.2",
 		"webpack-dev-server": "^3.1.9",
 		"workbox-webpack-plugin": "^3.6.2"
